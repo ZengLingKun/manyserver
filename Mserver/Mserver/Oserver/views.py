@@ -9,8 +9,9 @@ from django.core import serializers
 
 # Create your views here.
 def home(request):
-  host_ips=Server.objects.values_list('host_ip')
-  return render(request,'analyze_nmon.html',{'host_ips':host_ips})
+  all=get_all()
+  return render(request,'start_nmon.html',{'categoryshosts':all})
+
 
 nmon_files=settings.STATICFILES_DIRS[0]+'nmonaz/'
 def file_iterator(file_name, chunk_size=512):

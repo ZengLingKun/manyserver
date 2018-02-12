@@ -1287,3 +1287,38 @@ Quit the server with CONTROL-C.
 [12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 23033
 [12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 34623
 [12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22165
+[12/Feb/2018 18:20:50] "GET /os/ HTTP/1.1" 200 34085
+[12/Feb/2018 18:20:50] "GET /static/assets/css/style.css HTTP/1.1" 304 0
+[12/Feb/2018 18:20:50] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 18:20:50] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 18:20:55] "GET /os/nmon_2_img/ HTTP/1.1" 200 34355
+[12/Feb/2018 18:20:55] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 18:20:55] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 17:53:44
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 18:22:20] "GET /os/nmon_2_img/ HTTP/1.1" 200 34355
+[12/Feb/2018 18:22:21] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 18:22:22] "GET /os/nmon_2_img/ HTTP/1.1" 200 34355
+[12/Feb/2018 18:22:22] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 18:22:23] "GET /os/ HTTP/1.1" 200 41854
+[12/Feb/2018 18:22:32] "GET /os/nmon_2_start/ HTTP/1.1" 200 41854
+[12/Feb/2018 18:22:33] "GET /os/nmon_2_img/ HTTP/1.1" 200 34355
+[12/Feb/2018 18:22:34] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40157
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 2070
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/dataTables.buttons.min.js HTTP/1.1" 200 15661
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/buttons.bootstrap4.min.js HTTP/1.1" 200 899
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/jszip.min.js HTTP/1.1" 200 76985
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/pdfmake.min.js HTTP/1.1" 200 419939
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/dataTables.responsive.min.js HTTP/1.1" 200 11056
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/buttons.print.min.js HTTP/1.1" 200 1694
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/buttons.colVis.min.js HTTP/1.1" 200 2739
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/buttons.html5.min.js HTTP/1.1" 200 20463
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/responsive.bootstrap4.min.js HTTP/1.1" 200 1183
+[12/Feb/2018 18:22:34] "GET /static/assets/plugins/datatables/vfs_fonts.js HTTP/1.1" 200 567638
+[12/Feb/2018 18:22:35] "GET /os/ HTTP/1.1" 200 41854
