@@ -1,0 +1,78 @@
+{%extends 'base.html'%}
+{%block mytitle%}nmon解析{%endblock%}
+{%block mybody%}
+                        <!-- Row start -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-box">
+                                    <div class="row m-t-20">
+                                        <div class="col-md-6">
+                                            <h6 class="m-t-20 m-b-20">选择服务器及文件</h6>
+                                            <div class="">
+  {% csrf_token %}
+            <select class="btn btn-purple dropdown-toggle waves-effect waves-light" id="id_province" name="province">
+                <option selected="selected">请选择服务器</option>
+                                                        {%for host_ip in host_ips.0 %}
+                    <option value="{{ host_ip }}">{{ host_ip }}</option>
+                {% endfor %}
+            </select>
+            <select class="btn btn-info dropdown-toggle waves-effect waves-light" id="id_city" name="city">
+                    <option selected="selected">请选择NMON文件</option>
+            </select>
+
+
+
+<div  class="button-list">
+
+<button type="button" class="btn btn-outline-info btn-rounded waves-effect waves-light analyzenmon">
+        开始
+</button>
+</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="m-t-20 m-b-20">Dropup</h6>
+选择服务器及NMON进行解析
+                                        </div> <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+<div id="loading"></div>
+                                    <div class="row m-t-20" id="nmon-imgs">
+                                    </div>
+                                    <!-- end row -->
+                                    <div style="height: 100px;"></div>
+
+{%endblock%}
+
+{%block myjs%}
+ <script>
+        $('#id_province').change(function(){
+            var id = $('#id_province').val();
+            $.getJSON("{% url 'Oserver:getdata' %}?pk="+id, function(data,textStatus){
+                var content='';
+                $.each(data.nmons, function(i,nmon){
+                       content+='<option value='+nmon+'>'+nmon+'</option>'
+                });
+                $('#id_city').html(content)
+            });
+        });
+    </script>
+<script>
+$(".analyzenmon").click(function(){
+  var id = $('#id_province').val();
+  var nm = $('#id_city').val();
+$('#nmon-imgs').empty();
+$("#loading").html("<img src='/static/assets/images/loading.gif' />");
+  $.getJSON("{% url 'Oserver:analyze_nmon' %}?host_ip="+id+"&nmon_file="+nm,function(data,textStatus){
+$("#loading").empty();
+var content='<h4 header-title m-t-0>NMON监控图</h4>';
+$.each(data.imgs, function(i,img){
+content+='<p style="width: 100%;ext-align: center;"><img class="card-img-top img-fluid" src="/static/nmonaz/res/'+id+'/'+nm+'/img/'+img+'">'
+content+='<br /><center>'+img+'</center></p>'
+});
+ $('#nmon-imgs').html(content)
+ });
+
+});
+</script>
+{%endblock%}
