@@ -4,3 +4,1253 @@
 [12/Feb/2018 12:41:19] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
 [12/Feb/2018 12:41:20] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
 [12/Feb/2018 12:41:21] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 12:41:07
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:05:05] "GET /os/nmon_2_img_many HTTP/1.1" 301 0
+[12/Feb/2018 14:05:05] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 45851
+[12/Feb/2018 14:06:23] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 45861
+[12/Feb/2018 14:06:23] "GET /static/assets/images/favicon.ico HTTP/1.1" 404 106
+[12/Feb/2018 14:07:41] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 39314
+[12/Feb/2018 14:07:59] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 39132
+[12/Feb/2018 14:09:00] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 38618
+[12/Feb/2018 14:09:07] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:09:58] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 38609
+[12/Feb/2018 14:09:58] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:09:58] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:18:36] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
+[12/Feb/2018 14:18:41] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:18:41] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:19:15] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
+[12/Feb/2018 14:19:16] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:19:16] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:19:21] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40922
+[12/Feb/2018 14:19:21] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:19:22] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:19:51] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40942
+[12/Feb/2018 14:19:52] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:19:52] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:22:07] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
+[12/Feb/2018 14:22:07] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:22:07] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:22:09] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40991
+[12/Feb/2018 14:22:10] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:22:10] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:22:40] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40991
+[12/Feb/2018 14:22:40] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:22:40] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:04:27
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:25:31] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41776
+[12/Feb/2018 14:25:31] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:25:31] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:26:13] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
+[12/Feb/2018 14:26:14] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:26:14] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:26:17] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41776
+[12/Feb/2018 14:26:17] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:26:17] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:26:22] "GET /os/getdata/?pk=10.95.154.197,10.95.154.196,10.95.154.194,10.95.154.191 HTTP/1.1" 500 27
+[12/Feb/2018 14:28:17] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41829
+[12/Feb/2018 14:28:17] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:28:17] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:28:20] "GET /os/getdata/?pk= HTTP/1.1" 500 27
+[12/Feb/2018 14:28:25] "GET /os/getdata/?pk=10.95.154.194,10.95.154.191 HTTP/1.1" 500 27
+[12/Feb/2018 14:28:27] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41829
+[12/Feb/2018 14:28:28] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:28:28] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:28:31] "GET /os/getdata/?pk=10.95.154.191 HTTP/1.1" 200 444
+[12/Feb/2018 14:29:47] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41832
+[12/Feb/2018 14:29:47] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:29:47] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:29:52] "GET /os/getdata/?pk=10.95.154.197,10.95.154.194 HTTP/1.1" 500 27
+[12/Feb/2018 14:30:18] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41856
+[12/Feb/2018 14:30:18] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:30:18] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:30:21] "GET /os/getdata/?pk=10.95.154.196,10.95.154.194 HTTP/1.1" 500 27
+[12/Feb/2018 14:31:46] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41859
+[12/Feb/2018 14:31:47] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:31:47] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:31:51] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 14:32:35] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 14:32:35] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:32:36] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:32:38] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+[12/Feb/2018 14:33:04] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 14:33:04] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:33:05] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:33:06] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 14:35:10] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41764
+[12/Feb/2018 14:35:10] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:35:10] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:35:13] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 14:35:45] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41814
+[12/Feb/2018 14:35:45] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:35:45] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:35:48] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 14:36:20] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41665
+[12/Feb/2018 14:36:20] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:36:20] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:36:21] "GET /os/getdata/?pk=undefined HTTP/1.1" 500 27
+[12/Feb/2018 14:36:25] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 14:37:26] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 14:38:34] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41713
+[12/Feb/2018 14:38:34] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:38:34] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:38:35] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41713
+[12/Feb/2018 14:38:35] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:38:35] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:38:38] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 14:39:19] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41725
+[12/Feb/2018 14:39:19] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:39:19] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 108
+[12/Feb/2018 14:39:22] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 14:40:11] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41733
+[12/Feb/2018 14:40:14] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:25:29
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:43:34] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41733
+[12/Feb/2018 14:43:36] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 14:43:39] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 14:43:56] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_2018-02-06-18-22.nmon HTTP/1.1" 200 228
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/CPU001_vs_Time.png HTTP/1.1" 404 158
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/Net_vs_Time.png HTTP/1.1" 404 155
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/CPU_vs_Time.png HTTP/1.1" 404 155
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/Memory_vs_Time.png HTTP/1.1" 404 158
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 404 170
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 404 161
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/Quenens_vs_Time.png HTTP/1.1" 404 159
+[12/Feb/2018 14:43:56] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 404 162
+[12/Feb/2018 14:44:40] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 113
+[12/Feb/2018 14:45:49] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/CPU001_vs_Time.png HTTP/1.1" 404 158
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:43:30
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:47:54] "GET /static/nmonaz/res/10.95.154.197/360test_2018-02-06-18-22.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 72464
+[12/Feb/2018 14:47:57] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 14:47:57] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 14:47:57] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 14:47:59] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+/home/sysop/yourwork/Mserver/lib/python2.7/site-packages/matplotlib/axes/_base.py:3285: UserWarning: Attempting to set identical bottom==top results
+in singular transformations; automatically expanding.
+bottom=0, top=0.0
+  'bottom=%s, top=%s') % (bottom, top))
+[12/Feb/2018 14:48:05] "GET /os/analyze_nmon/?host_ip=10.95.154.194&nmon_file=360test_20180212033139_10.95.154.194.nmon HTTP/1.1" 200 228
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 22842
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 22613
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 20893
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 32080
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 26985
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 45060
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 25088
+[12/Feb/2018 14:48:05] "GET /static/nmonaz/res/10.95.154.194/360test_20180212033139_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 23386
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:47:51
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:52:53] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 14:52:55] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 14:53:01] "GET /os/analyze_nmon/?host_ip=10.95.154.194&nmon_file=360test_20180212033306_10.95.154.194.nmon HTTP/1.1" 200 4
+[12/Feb/2018 14:53:20] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 14:53:20] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:52:48
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 14:53:50] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 14:53:50] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 14:53:50] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 14:53:53] "GET /os/getdata/?pk=10.95.154.191 HTTP/1.1" 200 444
+[12/Feb/2018 14:54:00] "GET /os/analyze_nmon/?host_ip=10.95.154.191&nmon_file=360test_20180212033306_10.95.154.191.nmon HTTP/1.1" 200 228
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 31079
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 21467
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 23051
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 22653
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 23556
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 50157
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 23003
+[12/Feb/2018 14:54:00] "GET /static/nmonaz/res/10.95.154.191/360test_20180212033306_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 23571
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 14:53:49
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:01:53] "GET /os/many_2_imgs HTTP/1.1" 301 0
+[12/Feb/2018 15:01:53] "GET /os/many_2_imgs/ HTTP/1.1" 500 68174
+[12/Feb/2018 15:02:06] "GET /os/many_2_imgs/?countrys=123 HTTP/1.1" 500 68764
+Exception in thread Thread-14:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:02:15] "GET /os/many_2_imgs/?countrys=123&nmon_name=456 HTTP/1.1" 200 2
+[12/Feb/2018 15:03:17] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41757
+[12/Feb/2018 15:03:25] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:03:33] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41757
+[12/Feb/2018 15:03:37] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+[12/Feb/2018 15:03:42] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:04:15] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:04:16] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:04:16] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:04:18] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+Exception in thread Thread-41:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+Exception in thread Thread-42:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:04:21] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+[12/Feb/2018 15:05:40] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:05:41] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:05:41] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:05:46] "GET /os/getdata/?pk=10.95.154.191 HTTP/1.1" 200 444
+Exception in thread Thread-52:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:05:49] "GET /os/many_2_imgs/?countrys=10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Exception in thread Thread-54:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:05:57] "GET /os/many_2_imgs/?countrys=10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:01:23
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:06:40] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:06:40] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:06:40] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:06:43] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:06:45] "GET /os/many_2_imgs/?countrys=10.95.154.196,10.95.154.194&nmon_name=360test_20180212042915 HTTP/1.1" 200 2
+Exception in thread Thread-14:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:07:06] "GET /os/many_2_imgs/?countrys=10.95.154.196,10.95.154.194&nmon_name=360test_20180212042915 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:06:37
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:08:21] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:08:21] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:08:21] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:08:23] "GET /os/getdata/?pk=10.95.154.191 HTTP/1.1" 200 444
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:08:26] "GET /os/many_2_imgs/?countrys=10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:08:19
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:10:56] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:10:56] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:10:56] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:10:58] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:11:00] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:10:46
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:12:06] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:12:06] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:12:06] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:12:08] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+Exception in thread Thread-12:
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 812, in __bootstrap_inner
+    self.run()
+  File "/usr/lib64/python2.7/threading.py", line 765, in run
+    self.__target(*self.__args, **self.__kwargs)
+TypeError: analyze_nmon_() takes exactly 2 arguments (3 given)
+
+[12/Feb/2018 15:12:11] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:11:49
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:16:33] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:16:34] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:16:34] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:16:35] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:16:42] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:16:30
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:24:36] "GET /os/nmon_2_img_many/ HTTP/1.1" 500 96625
+[12/Feb/2018 15:25:10] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:25:10] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:25:10] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:25:13] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+Traceback (most recent call last):
+  File "pyNmonAnalyzer.py", line 318, in <module>
+    _ = pyNmonAnalyzer(raw_args=sys.argv[1:])
+  File "pyNmonAnalyzer.py", line 105, in __init__
+    self.processedData = self.nmonParser.parse()
+  File "/home/sysop/yourwork/Mserver/Mserver/static/nmonaz/pyNmonParser.py", line 133, in parse
+    f = open(self.fname, "r")
+IOError: [Errno 21] Is a directory: 'nmon_files/'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+Traceback (most recent call last):
+  File "pyNmonAnalyzer.py", line 318, in <module>
+    _ = pyNmonAnalyzer(raw_args=sys.argv[1:])
+  File "pyNmonAnalyzer.py", line 105, in __init__
+    self.processedData = self.nmonParser.parse()
+  File "/home/sysop/yourwork/Mserver/Mserver/static/nmonaz/pyNmonParser.py", line 133, in parse
+    f = open(self.fname, "r")
+IOError: [Errno 21] Is a directory: 'nmon_files/'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+[12/Feb/2018 15:25:21] "GET /os/many_2_imgs/?countrys=10.95.154.196,10.95.154.194,10.95.154.191&nmon_name=360test_20180212042915 HTTP/1.1" 200 2
+[12/Feb/2018 15:26:30] "GET /os/ HTTP/1.1" 200 33978
+[12/Feb/2018 15:26:32] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 15:26:34] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+[12/Feb/2018 15:26:40] "GET /os/analyze_nmon/?host_ip=10.95.154.196&nmon_file=360test_20180212033139_10.95.154.196.nmon HTTP/1.1" 200 228
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 24877
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 25008
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 34269
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 23375
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 20600
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Net_vs_Time.png HTTP/1.1" 200 47734
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 33279
+[12/Feb/2018 15:26:40] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22768
+[12/Feb/2018 15:26:52] "GET /os/analyze_nmon/?host_ip=10.95.154.196&nmon_file=360test_20180212031137_10.95.154.196.nmon HTTP/1.1" 200 228
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 23914
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 25285
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 24810
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 31579
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/Net_vs_Time.png HTTP/1.1" 200 38785
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 23295
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 35190
+[12/Feb/2018 15:26:52] "GET /static/nmonaz/res/10.95.154.196/360test_20180212031137_10.95.154.196.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 23021
+[12/Feb/2018 15:27:11] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 15:27:13] "GET /os/getdata/?pk=10.95.154.196 HTTP/1.1" 200 264
+[12/Feb/2018 15:27:18] "GET /os/analyze_nmon/?host_ip=10.95.154.196&nmon_file=360test_20180212033139_10.95.154.196.nmon HTTP/1.1" 200 228
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 20600
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 25008
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 24877
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 34269
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 23375
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Net_vs_Time.png HTTP/1.1" 200 47734
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 33279
+[12/Feb/2018 15:27:18] "GET /static/nmonaz/res/10.95.154.196/360test_20180212033139_10.95.154.196.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22768
+[12/Feb/2018 15:27:28] "GET /os/nmon_2_start/ HTTP/1.1" 200 41747
+[12/Feb/2018 15:27:28] "GET /os/nmon_2_img/ HTTP/1.1" 200 34248
+[12/Feb/2018 15:27:30] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:27:35] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:27:35] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:27:35] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:27:40] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:27:47] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:24:14
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:28:41] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:28:42] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:28:42] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:28:44] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:28:51] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 500 11117
+[12/Feb/2018 15:29:14] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 500 69667
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:28:36
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:30:10] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 418
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:30:04
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:35:40] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2274
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:35:23
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:37:15] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 2258
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:37:09
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:49:30] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 994
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:49:21
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:50:12] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+[12/Feb/2018 15:50:55] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41746
+[12/Feb/2018 15:50:55] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 15:50:55] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 15:50:58] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:51:10] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+[12/Feb/2018 15:52:48] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41737
+[12/Feb/2018 15:52:51] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:52:56] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+[12/Feb/2018 15:53:19] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41739
+[12/Feb/2018 15:53:21] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:53:26] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+[12/Feb/2018 15:54:35] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41766
+[12/Feb/2018 15:54:37] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:54:42] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgDisk_Busy_vs_Time.png HTTP/1.1" 404 1893
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgCPU001_vs_Time.png HTTP/1.1" 404 1884
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgCPU_vs_Time.png HTTP/1.1" 404 1875
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgDISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 404 1920
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgNet_vs_Time.png HTTP/1.1" 404 1875
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgMemory_vs_Time.png HTTP/1.1" 404 1884
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgQuenens_vs_Time.png HTTP/1.1" 404 1887
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgSWAP-SPACE_vs_Time.png HTTP/1.1" 404 1896
+[12/Feb/2018 15:54:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgCPU001_vs_Time.png HTTP/1.1" 404 1884
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgCPU_vs_Time.png HTTP/1.1" 404 1875
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgDISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 404 1920
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgMemory_vs_Time.png HTTP/1.1" 404 1884
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgDisk_Busy_vs_Time.png HTTP/1.1" 404 1893
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgNet_vs_Time.png HTTP/1.1" 404 1875
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgQuenens_vs_Time.png HTTP/1.1" 404 1887
+[12/Feb/2018 15:54:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/imgSWAP-SPACE_vs_Time.png HTTP/1.1" 404 1896
+[12/Feb/2018 15:54:57] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgCPU001_vs_Time.png HTTP/1.1" 404 1884
+[12/Feb/2018 15:55:01] "GET /static/nmonaz/res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/imgCPU001_vs_Time.png HTTP/1.1" 404 1881
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:50:04
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:56:16] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1682
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:56:00
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 15:57:21] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 15:57:35] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 15:57:42] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41766
+[12/Feb/2018 15:57:45] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:58:04] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41755
+[12/Feb/2018 15:58:06] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 15:58:11] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 15:58:11] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:04:37] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:04:37] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:05:04] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41935
+[12/Feb/2018 16:05:04] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:05:04] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:05:07] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:05:12] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:05:51] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41894
+[12/Feb/2018 16:05:54] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:06:01] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:06:41] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41894
+[12/Feb/2018 16:06:44] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:06:49] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:07:03] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:07:09] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:07:09] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:07:12] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:07:17] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:07:32] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:07:38] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212033422 HTTP/1.1" 200 1698
+[12/Feb/2018 16:10:02] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41894
+[12/Feb/2018 16:10:57] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41892
+[12/Feb/2018 16:11:00] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:11:05] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:12:14] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41903
+[12/Feb/2018 16:12:17] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:12:22] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:13:04] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41913
+[12/Feb/2018 16:13:07] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:13:12] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:13:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41903
+[12/Feb/2018 16:13:56] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:14:01] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:15:19] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41981
+[12/Feb/2018 16:15:21] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:15:26] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:15:26] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:17:03] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 41631
+[12/Feb/2018 16:17:07] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:17:12] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:17:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:19:41] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42803
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 2070
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/dataTables.buttons.min.js HTTP/1.1" 200 15661
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/buttons.bootstrap4.min.js HTTP/1.1" 200 899
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/jszip.min.js HTTP/1.1" 200 76985
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/pdfmake.min.js HTTP/1.1" 200 419939
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/vfs_fonts.js HTTP/1.1" 200 567638
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/buttons.html5.min.js HTTP/1.1" 200 20463
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/buttons.print.min.js HTTP/1.1" 200 1694
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/buttons.colVis.min.js HTTP/1.1" 200 2739
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/responsive.bootstrap4.min.js HTTP/1.1" 200 1183
+[12/Feb/2018 16:19:41] "GET /static/assets/plugins/datatables/dataTables.responsive.min.js HTTP/1.1" 200 11056
+[12/Feb/2018 16:19:44] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:19:50] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:19:50] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:20:00] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:20:00] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:20:00] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:20:02] "GET /static/assets/scss/_forms.scss HTTP/1.1" 304 0
+[12/Feb/2018 16:22:52] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:53] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 73308
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js HTTP/1.1" 200 4976
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/autocomplete/jquery.autocomplete.min.js HTTP/1.1" 200 13062
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/autocomplete/countries.js HTTP/1.1" 200 6637
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.autocomplete.init.js HTTP/1.1" 200 4137
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.formadvanced.init.js HTTP/1.1" 200 2510
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 2070
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/dataTables.buttons.min.js HTTP/1.1" 200 15661
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/buttons.bootstrap4.min.js HTTP/1.1" 200 899
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 73308
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 73308
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js HTTP/1.1" 200 4976
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/autocomplete/jquery.autocomplete.min.js HTTP/1.1" 200 13062
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/autocomplete/countries.js HTTP/1.1" 200 6637
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.autocomplete.init.js HTTP/1.1" 200 4137
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.formadvanced.init.js HTTP/1.1" 200 2510
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 2070
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 73308
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js HTTP/1.1" 200 4976
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/autocomplete/jquery.autocomplete.min.js HTTP/1.1" 200 13062
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42829
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css HTTP/1.1" 200 1089
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/css/multi-select.css HTTP/1.1" 200 2347
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.css HTTP/1.1" 200 433
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/select2/css/select2.min.css HTTP/1.1" 200 15091
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.css HTTP/1.1" 200 682
+[12/Feb/2018 16:22:54] "GET /static/assets/js/modernizr.min.js HTTP/1.1" 200 11084
+[12/Feb/2018 16:22:54] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 200 124962
+[12/Feb/2018 16:22:54] "GET /static/assets/css/style.css HTTP/1.1" 200 363424
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 86709
+[12/Feb/2018 16:22:54] "GET /static/assets/js/popper.min.js HTTP/1.1" 200 19033
+[12/Feb/2018 16:22:54] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 200 51143
+[12/Feb/2018 16:22:54] "GET /static/assets/js/detect.js HTTP/1.1" 200 2225
+[12/Feb/2018 16:22:54] "GET /static/assets/js/fastclick.js HTTP/1.1" 200 25965
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.blockUI.js HTTP/1.1" 200 19966
+[12/Feb/2018 16:22:54] "GET /static/assets/js/waves.js HTTP/1.1" 200 69263
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.nicescroll.js HTTP/1.1" 200 59364
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.scrollTo.min.js HTTP/1.1" 200 2434
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.slimscroll.js HTTP/1.1" 200 13659
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/switchery/switchery.min.js HTTP/1.1" 200 24437
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/raphael/raphael-min.js HTTP/1.1" 200 92651
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/waypoints/lib/jquery.waypoints.min.js HTTP/1.1" 200 8833
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 200 1067
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.core.js HTTP/1.1" 200 5462
+[12/Feb/2018 16:22:54] "GET /static/assets/js/jquery.app.js HTTP/1.1" 200 9578
+[12/Feb/2018 16:22:54] "GET /static/assets/pages/jquery.dashboard.js HTTP/1.1" 200 2372
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js HTTP/1.1" 200 20603
+[12/Feb/2018 16:22:54] "GET /static/assets/plugins/multiselect/js/jquery.multi-select.js HTTP/1.1" 200 19226
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/jquery-quicksearch/jquery.quicksearch.js HTTP/1.1" 200 4179
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/select2/js/select2.full.min.js HTTP/1.1" 200 73308
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js HTTP/1.1" 200 4976
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/autocomplete/jquery.autocomplete.min.js HTTP/1.1" 200 13062
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/autocomplete/countries.js HTTP/1.1" 200 6637
+[12/Feb/2018 16:22:55] "GET /static/assets/pages/jquery.autocomplete.init.js HTTP/1.1" 200 4137
+[12/Feb/2018 16:22:55] "GET /static/assets/pages/jquery.formadvanced.init.js HTTP/1.1" 200 2510
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/jquery.dataTables.min.js HTTP/1.1" 200 83268
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/dataTables.bootstrap4.min.js HTTP/1.1" 200 2070
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/dataTables.buttons.min.js HTTP/1.1" 200 15661
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/buttons.bootstrap4.min.js HTTP/1.1" 200 899
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/jszip.min.js HTTP/1.1" 200 76985
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/pdfmake.min.js HTTP/1.1" 200 419939
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/vfs_fonts.js HTTP/1.1" 200 567638
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/buttons.html5.min.js HTTP/1.1" 200 20463
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/buttons.print.min.js HTTP/1.1" 200 1694
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/buttons.colVis.min.js HTTP/1.1" 200 2739
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/dataTables.responsive.min.js HTTP/1.1" 200 11056
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/datatables/responsive.bootstrap4.min.js HTTP/1.1" 200 1183
+[12/Feb/2018 16:22:55] "GET /static/assets/images/users/avatar-2.jpg HTTP/1.1" 200 5676
+[12/Feb/2018 16:22:55] "GET /static/assets/images/users/avatar-3.jpg HTTP/1.1" 200 4025
+[12/Feb/2018 16:22:55] "GET /static/assets/images/users/avatar-4.jpg HTTP/1.1" 200 4009
+[12/Feb/2018 16:22:55] "GET /static/assets/images/users/avatar-1.jpg HTTP/1.1" 200 3598
+[12/Feb/2018 16:22:55] "GET /static/assets/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+[12/Feb/2018 16:22:55] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[12/Feb/2018 16:22:55] "GET /static/assets/plugins/multiselect/img/multiple-arrow.png HTTP/1.1" 200 2943
+[12/Feb/2018 16:22:55] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:22:59] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:23:05] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:23:05] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212033422 HTTP/1.1" 200 1698
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 24847
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21939
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 20280
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 32115
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 26162
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 40528
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 22004
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212033422_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22555
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 20519
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20859
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 18918
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 23569
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 35535
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 20871
+[12/Feb/2018 16:23:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212033422_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21418
+[12/Feb/2018 16:23:53] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42833
+[12/Feb/2018 16:23:53] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:23:55] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:24:00] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:24:00] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:24:01] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:24:01] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:24:01] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:24:01] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:24:01] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:24:54] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42508
+[12/Feb/2018 16:24:54] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:24:58] "GET /os/getdata/?pk=10.95.154.191 HTTP/1.1" 200 444
+[12/Feb/2018 16:25:03] "GET /os/many_2_imgs/?countrys=10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 849
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:25:04] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:26:10] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42522
+[12/Feb/2018 16:26:10] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:26:13] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:26:18] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:26:18] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:29:16] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 42220
+[12/Feb/2018 16:29:16] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:35:21] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40384
+[12/Feb/2018 16:35:22] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:35:39] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40202
+[12/Feb/2018 16:35:39] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:36:58] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40707
+[12/Feb/2018 16:36:58] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:37:14] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:37:20] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:37:20] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:37:42] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40707
+[12/Feb/2018 16:37:42] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:39:04] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40418
+[12/Feb/2018 16:39:05] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:39:08] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:39:13] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:39:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:40:08] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:40:13] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:40:58] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 39913
+[12/Feb/2018 16:40:59] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:41:01] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:41:06] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:41:06] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:44:39] "GET /admin/ HTTP/1.1" 200 6734
+[12/Feb/2018 16:49:05] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 39952
+[12/Feb/2018 16:49:06] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:49:08] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:49:13] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:49:13] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:51:25] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40055
+[12/Feb/2018 16:51:25] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:51:27] "GET /os/nmon_2_img/ HTTP/1.1" 200 34351
+[12/Feb/2018 16:51:28] "GET /os/nmon_2_start/ HTTP/1.1" 200 41850
+[12/Feb/2018 16:51:29] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40055
+[12/Feb/2018 16:51:39] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:51:47] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:51:47] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:51:50] "GET /os/nmon_2_start/ HTTP/1.1" 200 41850
+[12/Feb/2018 16:51:51] "GET /os/nmon_2_img/ HTTP/1.1" 200 34351
+[12/Feb/2018 16:51:53] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 16:52:02] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_20180212042915_10.95.154.197.nmon HTTP/1.1" 500 11272
+[12/Feb/2018 16:53:12] "GET /os/nmon_2_img/ HTTP/1.1" 200 34358
+[12/Feb/2018 16:53:12] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:53:14] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40062
+[12/Feb/2018 16:53:21] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:53:21] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:54:22] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40107
+[12/Feb/2018 16:54:22] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:54:23] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:54:23] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:54:24] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40107
+[12/Feb/2018 16:54:24] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:54:24] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:54:24] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:55:31] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40141
+[12/Feb/2018 16:55:31] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:55:32] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40141
+[12/Feb/2018 16:55:32] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:55:34] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:55:51] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40145
+[12/Feb/2018 16:55:52] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:55:52] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:55:52] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:55:53] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40145
+[12/Feb/2018 16:55:53] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:55:53] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:55:53] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:56:13] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40134
+[12/Feb/2018 16:56:13] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 16:56:13] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 16:56:13] "GET /static/assets/plugins/datatables/pdfmake.min.js.map HTTP/1.1" 404 1749
+[12/Feb/2018 16:56:20] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:56:25] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:56:25] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:56:38] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40122
+[12/Feb/2018 16:56:38] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:56:40] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:56:46] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:56:46] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:57:05] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40148
+[12/Feb/2018 16:57:05] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 16:57:07] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 16:57:12] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 16:57:12] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 16:57:20] "GET /os/nmon_2_start/ HTTP/1.1" 200 41845
+[12/Feb/2018 17:00:53] "GET /os/nmon_2_start/ HTTP/1.1" 200 41845
+[12/Feb/2018 17:00:53] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 17:00:54] "GET /os/ HTTP/1.1" 200 34076
+[12/Feb/2018 17:00:56] "GET /os/nmon_2_start/ HTTP/1.1" 200 41845
+[12/Feb/2018 17:00:57] "GET /os/nmon_2_start/ HTTP/1.1" 200 41845
+[12/Feb/2018 17:00:58] "GET /os/nmon_2_img_many/ HTTP/1.1" 200 40148
+[12/Feb/2018 17:01:00] "GET /os/getdata/?pk=10.95.154.194 HTTP/1.1" 200 219
+[12/Feb/2018 17:01:05] "GET /os/many_2_imgs/?countrys=10.95.154.194,10.95.154.191&nmon_name=360test_20180212123109 HTTP/1.1" 200 1698
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 20991
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21160
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 26757
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19837
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25284
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36864
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21324
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.194/360test_20180212123109_10.95.154.194.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 21857
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 21670
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 21410
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 19580
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 24815
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 21958
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
+[12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014

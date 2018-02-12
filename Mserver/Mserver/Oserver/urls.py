@@ -26,4 +26,6 @@ urlpatterns = [
     url(r'^put_nmon/$', views.put_nmon, name='put_nmon'),
     url(r'^start_all/$', views.start_all, name='start_all'),
     url(r'^add_server/$', views.add_server, name='add_server'),
+    url(r'^nmon_2_img_many/$', views.nmon_2_img_many, name='nmon_2_img_many'),
+    url(r'^many_2_imgs/$', views.many_2_imgs, name='many_2_imgs'),
 ]

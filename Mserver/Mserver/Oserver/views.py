@@ -30,6 +30,51 @@ def file_down(request):
   response['Content-Disposition'] = 'attachment;filename="{0}"'.format(the_file_name)
   return response
 
+
+#analyze_nmon_
+def analyze_nmon_(host_ip,nmon_file,queue=None):
+  is_re=1
+  host_info=Server.objects.get(host_ip=host_ip)
+  ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
+  nmon_file=ssh_.run_cmd('ls ~/nmon|grep %s' %nmon_file) 
+  source_=os.path.join('~/nmon',nmon_file)
+  lo_=os.path.join(nmon_files+'nmon_files',nmon_file)
+  er=''
+  imgs=[]
+  try:
+    ssh_.get(source_,lo_)
+  except Exception as e:er=str(e)+":"+source_+","+lo_
+  finally:ssh_.close()
+  if is_re:
+    er=os.popen('cd %s;sh pyit.sh nmon_files/%s %s' %(nmon_files,nmon_file,host_ip)).read().strip()
+  else:
+    er='OK'
+  imgs_file=os.path.join(nmon_files+'/res/',host_ip+'/'+nmon_file+'/img')
+  imgs_file=os.path.join(nmon_files+'/res/',host_ip)
+  nmon_file_=os.popen('ls %s|grep %s' %(imgs_file,nmon_file)).read().strip()+'/img'
+  imgs_file=os.path.join(imgs_file,nmon_file_)
+  if er=='OK':
+    imgs=os.popen('ls %s' %imgs_file).read().strip().split('\n')
+  data = {'host_ip':host_ip,'imgs':imgs}
+  imgs_file=imgs_file[imgs_file.index('/static'):]
+  with open('/tmp/djq_getdata.log','w') as f:f.write(imgs_file)
+  queue.put([host_ip,[os.path.join(imgs_file,img) for img in imgs]])
+  return data
+
+#-------------------------
+
+def many_2_imgs(request):
+  countrys=request.GET['countrys']
+  nmon_name=request.GET['nmon_name']
+  thread = MyThread(analyze_nmon_,countrys.split(','),(nmon_name,))
+  returns=thread.start()
+  return HttpResponse(json.dumps(returns), content_type='application/json')
+
+def nmon_2_img_many(request):
+  all=get_all()
+  return render(request,'analyze_nmon_many.html',{'categoryshosts':all})
+
+
 def add_server(request):
   flg=0
   my=''
@@ -77,7 +122,6 @@ def start_all(request):
   t=time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
   thread = MyThread(nmon_2_start_,countrys.split(','),(s,c,t))
   returns=thread.start()
-  with open('/tmp/djq_getdata.log','w') as f:f.write(str(t))
   return HttpResponse(json.dumps(returns), content_type='application/json')
  
 def nmon_2_start(request):
@@ -136,30 +180,15 @@ def nmon_2_img(request):
   return render(request,'analyze_nmon.html',{'host_ips':host_ips})
 
 
+
 #nmon_2_img:ajax
 def analyze_nmon(request):
   host_ip=request.GET['host_ip']
-  nmon_file=request.GET['nmon_file']
-  is_re=1
-  host_info=Server.objects.get(host_ip=host_ip)
-  source_=os.path.join('~/nmon',nmon_file)
-  lo_=os.path.join(nmon_files+'nmon_files',nmon_file)
-  ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
-  er=''
-  imgs=[]
-  try:
-    ssh_.get(source_,lo_)
-  except Exception as e:er=str(e)+":"+source_+","+lo_
-  finally:ssh_.close()
-  if is_re:
-    er=os.popen('cd %s;sh pyit.sh nmon_files/%s %s' %(nmon_files,nmon_file,host_ip)).read().strip()
-  else:
-    er='OK'
-  imgs_file=os.path.join(nmon_files+'/res/',host_ip+'/'+nmon_file+'/img')
-  if er=='OK':
-    imgs=os.popen('ls %s' %imgs_file).read().strip().split('\n')
-  data = json.dumps({'host_ip':host_ip,'imgs':imgs})
+  nmon_file=request.GET['nmon_file']#获取的是全名
+  data=analyze_nmon_(host_ip,nmon_file)
+  data = json.dumps(data)
   return HttpResponse(data, content_type='application/json')
+
   
 #nmon_2_img:ajax
 def getdata(request):
