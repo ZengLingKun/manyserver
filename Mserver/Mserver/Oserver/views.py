@@ -58,7 +58,9 @@ def analyze_nmon_(host_ip,nmon_file,queue=None):
   data = {'host_ip':host_ip,'imgs':imgs}
   imgs_file=imgs_file[imgs_file.index('/static'):]
   with open('/tmp/djq_getdata.log','w') as f:f.write(imgs_file)
-  queue.put([host_ip,[os.path.join(imgs_file,img) for img in imgs]])
+  try:
+    queue.put([host_ip,[os.path.join(imgs_file,img) for img in imgs]])
+  except:pass
   return data
 
 #-------------------------

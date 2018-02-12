@@ -1254,3 +1254,36 @@ Quit the server with CONTROL-C.
 [12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Net_vs_Time.png HTTP/1.1" 200 36054
 [12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 21460
 [12/Feb/2018 17:01:05] "GET /static/nmonaz//res/10.95.154.191/360test_20180212123109_10.95.154.191.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22014
+[12/Feb/2018 17:52:14] "GET /os/nmon_2_img/ HTTP/1.1" 200 34339
+[12/Feb/2018 17:52:14] "GET /static/assets/images/favicon.ico HTTP/1.1" 200 32038
+[12/Feb/2018 17:52:15] "GET /os/nmon_2_start/ HTTP/1.1" 200 41838
+[12/Feb/2018 17:52:15] "GET /os/nmon_2_img/ HTTP/1.1" 200 34339
+[12/Feb/2018 17:52:18] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 17:52:20] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 17:52:27] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_20180212042915_10.95.154.197.nmon HTTP/1.1" 500 11272
+[12/Feb/2018 17:52:54] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_20180212042915_10.95.154.197.nmon HTTP/1.1" 500 72448
+[12/Feb/2018 17:52:55] "GET /favicon.ico HTTP/1.1" 404 2045
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 12, 2018 - 15:57:14
+Django version 1.8.6, using settings 'Mserver.settings'
+Starting development server at http://0.0.0.0:9813/
+Quit the server with CONTROL-C.
+[12/Feb/2018 17:53:52] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_20180212042915_10.95.154.197.nmon HTTP/1.1" 200 228
+[12/Feb/2018 17:53:55] "GET /os/nmon_2_img/ HTTP/1.1" 200 34339
+[12/Feb/2018 17:53:56] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 17:53:56] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 17:53:57] "GET /os/nmon_2_img/ HTTP/1.1" 200 34339
+[12/Feb/2018 17:53:57] "GET /static/assets/css/bootstrap.min.css.map HTTP/1.1" 404 1713
+[12/Feb/2018 17:53:57] "GET /static/assets/js/popper.min.js.map HTTP/1.1" 404 1698
+[12/Feb/2018 17:53:58] "GET /os/getdata/?pk=10.95.154.197 HTTP/1.1" 200 915
+[12/Feb/2018 17:54:04] "GET /os/analyze_nmon/?host_ip=10.95.154.197&nmon_file=360test_20180212033306_10.95.154.197.nmon HTTP/1.1" 200 228
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/DISKREAD-DISKWRITE_vs_Time.png HTTP/1.1" 200 48703
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/Memory_vs_Time.png HTTP/1.1" 200 25932
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/Disk_Busy_vs_Time.png HTTP/1.1" 200 23164
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/CPU001_vs_Time.png HTTP/1.1" 200 26298
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/Net_vs_Time.png HTTP/1.1" 200 40990
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/CPU_vs_Time.png HTTP/1.1" 200 23033
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/Quenens_vs_Time.png HTTP/1.1" 200 34623
+[12/Feb/2018 17:54:04] "GET /static/nmonaz/res/10.95.154.197/360test_20180212033306_10.95.154.197.nmon/img/SWAP-SPACE_vs_Time.png HTTP/1.1" 200 22165
