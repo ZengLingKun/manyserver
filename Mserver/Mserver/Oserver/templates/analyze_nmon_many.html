@@ -114,6 +114,30 @@
         </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<!-- 模态框（Modal） -->
+<style>
+#imgModal {
+padding-right:50% !important;
+}
+</style>
+<div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+        <div class="modal-dialog">
+                <div class="modal-content" style="width:280%">
+                        <div class="modal-body">
+<div class="imgmodelsrc">
+</div>
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-dark btn-rounded waves-effect waves-light"
+                                                data-dismiss="modal">关闭
+                                </button>
+                        </div>
+                </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
         <script src="/static/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js"></script>
@@ -182,10 +206,10 @@ $.each(imgs, function(x,img){
 names=img.split('/')
 name=names[names.length-1]
 if (mm%2==0){
-content+='<tr role="row" class="odd"><td class="">'+i+'</td><td class="sorting_1"><img class="card-img-top img-fluid" src="'+img+'">'+name+'</td>'
+content+='<tr role="row" class="odd"><td class="">'+i+'</td><td><img type="button" class="card-img-top img-fluid" data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+name+'</td>'
 }
 else{
-content+='<td><img class="card-img-top img-fluid" src="'+img+'">'+name+'</td></tr>'
+content+='<td><img class="card-img-top img-fluid"  data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+name+'</td></tr>'
 }
 mm+=1
 //content+='<p style="width: 100%;ext-align: center;"><img class="card-img-top img-fluid" src="'+img+'">'
@@ -197,7 +221,15 @@ $('.nmonresults').show();
  });
 
 });
-</script>
 
+</script>
+<script>
+   //绑定模态框展示的方法 
+    $('#imgModal').on('show.bs.modal', function (event) {  
+        var button = event.relatedTarget.src // 触发事件的按钮  
+        content='<img src="'+button+'" />'
+        $('.imgmodelsrc').html(content)  
+    })  
+</script>
 
 {%endblock%}
