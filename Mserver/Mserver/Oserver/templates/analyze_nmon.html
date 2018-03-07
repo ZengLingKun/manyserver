@@ -65,11 +65,12 @@ $('#nmon-imgs').empty();
 $("#loading").html("<img src='/static/assets/images/loading.gif' />");
   $.getJSON("{% url 'Oserver:analyze_nmon' %}?host_ip="+id+"&nmon_file="+nm,function(data,textStatus){
 $("#loading").empty();
-var content='<h4 header-title m-t-0>NMON监控图</h4>';
+var content='<h4 header-title m-t-0>NMON监控图</h4><table class="table">';
 $.each(data.imgs, function(i,img){
-content+='<p style="width: 100%;ext-align: center;"><img class="card-img-top img-fluid" src="/static/nmonaz/res/'+id+'/'+nm+'/img/'+img+'">'
-content+='<br /><center>'+img+'</center></p>'
+content+='<tr><td><p style="width: 100%;ext-align: center;"><img class="card-img-top img-fluid" src="/static/nmonaz/res/'+id+'/'+nm+'/img/'+img+'"></td></tr>'
+content+='<tr><td><center>'+img+'1</center></p></td></tr>'
 });
+content+='</table>'
  $('#nmon-imgs').html(content)
  });
 

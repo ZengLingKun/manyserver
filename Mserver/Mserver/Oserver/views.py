@@ -104,13 +104,14 @@ def nmon_2_start_(host_ip,s,c,t,queue):
   try:  
     host_info=Server.objects.get(host_ip=host_ip)
     ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
-    if not host_info.has_nmon:
-      flag=nmon_2_host_(host_ip)
-      if not 'SUCCESS' in flag:
-        queue.put([host_ip,flag])
-        return 0
     try:
-      cmd_='cd ~/nmon/;./nmon_x86_64_centos7 -s %s -c %s -F 360test_%s_%s.nmon -t' %(s,c,t,host_ip)
+      hs_nmon=int(ssh_.run_cmd('ls ~/nmon/ 2>/dev/null|grep nmon_x86_64_centos|wc -l'))
+      if not hs_nmon:
+        flag=nmon_2_host_(host_ip)
+        if not 'SUCCESS' in flag:
+          queue.put([host_ip,flag])
+          return 0
+      cmd_='cd ~/nmon/;./nmon_x86_64_centos* -s %s -c %s -F 360test_%s_%s.nmon -t' %(s,c,t,host_ip)
       flag=ssh_.run_cmd('%s && echo "%s SUCCESS"' %(cmd_,cmd_))
     except Exception as e:flag=str(e)
     finally:ssh_.close()
@@ -122,7 +123,7 @@ def start_all(request):
   countrys=request.GET['categorys']
   s=request.GET['s']
   c=request.GET['c']
-  t=time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
+  t=time.strftime('%Y-%m-%d_%H:%M:%S',time.localtime(time.time()))
   thread = MyThread(nmon_2_start_,countrys.split(','),(s,c,t))
   returns=thread.start()
   return HttpResponse(json.dumps(returns), content_type='application/json')
@@ -140,12 +141,16 @@ def nmon_2_host_(host_ip,queue=None):
     host_info=Server.objects.get(host_ip=host_ip)
     ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
     try:
+      cetoos=ssh_.run_cmd('cat /etc/redhat-release')
+      if '6.' in cetoos:cetoos='6'
+      else:cetoos='7'
       ssh_.run_cmd('mkdir -p ~/nmon/ 2>/dev/null')
+      nmon_ff='nmon_x86_64_centos'+cetoos
       #暂时写死centos7
-      source_file=os.path.join(nmon_files,'nmon_x86_64_centos7')
-      ssh_.put(source_file,'~/nmon/nmon_x86_64_centos7')
-      ssh_.run_cmd('chmod +x ~/nmon/nmon_x86_64_centos7 2>/dev/null')
-      flag=ssh_.run_cmd('ls ~/nmon/|grep nmon_x86_64_centos7|wc -l')
+      source_file=os.path.join(nmon_files,nmon_ff)
+      ssh_.put(source_file,'~/nmon/%s' %nmon_ff)
+      ssh_.run_cmd('chmod +x ~/nmon/%s 2>/dev/null' %nmon_ff)
+      flag=ssh_.run_cmd('ls ~/nmon/|grep %s|wc -l' %nmon_ff)
     except Exception as e:flag=str(e)
     finally:ssh_.close()
   except Exception as e1:flag=str(e1)
