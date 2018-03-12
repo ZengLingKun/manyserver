@@ -28,4 +28,5 @@ urlpatterns = [
     url(r'^add_server/$', views.add_server, name='add_server'),
     url(r'^nmon_2_img_many/$', views.nmon_2_img_many, name='nmon_2_img_many'),
     url(r'^many_2_imgs/$', views.many_2_imgs, name='many_2_imgs'),
+    url(r'^run_cmd_many/$', views.run_cmd_many, name='run_cmd_many'),
 ]

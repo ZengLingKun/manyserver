@@ -10,7 +10,7 @@ from django.core import serializers
 # Create your views here.
 def home(request):
   all=get_all()
-  return render(request,'start_nmon.html',{'categoryshosts':all})
+  return render(request,'myhome.html')
 
 
 nmon_files=settings.STATICFILES_DIRS[0]+'nmonaz/'
@@ -64,6 +64,13 @@ def analyze_nmon_(host_ip,nmon_file,queue=None):
   except:pass
   return data
 
+
+# -----------------
+def run_cmd_many(request):
+  all=get_all()
+  return render(request,'run_cmd_many.html',{'categoryshosts':all})
+
+
 #-------------------------
 
 def many_2_imgs(request):
@@ -72,6 +79,7 @@ def many_2_imgs(request):
   thread = MyThread(analyze_nmon_,countrys.split(','),(nmon_name,))
   returns=thread.start()
   return HttpResponse(json.dumps(returns), content_type='application/json')
+
 
 def nmon_2_img_many(request):
   all=get_all()
@@ -99,6 +107,19 @@ def add_server(request):
   return HttpResponse(json.dumps({'aa':flg}), content_type='application/json')
 
 
+def cmd_2_host_(host_ip,s,c,t,queue):
+  flag=0
+  try:  
+    host_info=Server.objects.get(host_ip=host_ip)
+    ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
+    try:
+      flag=ssh_.run_cmd(c).replace('\n','<br />')
+    except Exception as e:flag=str(e)
+    finally:ssh_.close()
+  except Exception as e1:flag=str(e1)
+  queue.put([host_ip,flag])
+
+
 def nmon_2_start_(host_ip,s,c,t,queue):
   flag=0
   try:  
@@ -124,7 +145,10 @@ def start_all(request):
   s=request.GET['s']
   c=request.GET['c']
   t=time.strftime('%Y-%m-%d_%H:%M:%S',time.localtime(time.time()))
-  thread = MyThread(nmon_2_start_,countrys.split(','),(s,c,t))
+  if s=='cmds':
+    thread = MyThread(cmd_2_host_,countrys.split(','),(s,c,t))
+  else:
+    thread = MyThread(nmon_2_start_,countrys.split(','),(s,c,t))
   returns=thread.start()
   return HttpResponse(json.dumps(returns), content_type='application/json')
  
