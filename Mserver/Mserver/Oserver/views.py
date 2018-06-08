@@ -1,3 +1,4 @@
+
 #coding:utf-8
 from django.shortcuts import render,get_object_or_404
 from django.http import HttpResponse
@@ -64,11 +65,23 @@ def analyze_nmon_(host_ip,nmon_file,queue=None):
   except:pass
   return data
 
+#----------
+def putfile_many(request):
+  all=get_all()
+  return render(request,'put_file_many.html',{'categoryshosts':all})
+
 
 # -----------------
 def run_cmd_many(request):
   all=get_all()
   return render(request,'run_cmd_many.html',{'categoryshosts':all})
+
+
+def file_many(request):
+  all=get_all()
+  tmp_dirs=settings.STATICFILES_DIRS[0].replace('static','downfiles')
+  files=os.popen('ls %s' %tmp_dirs).read().split('\n')[:-1]
+  return render(request,'file_many.html',{'categoryshosts':all,'files':files})
 
 
 #-------------------------
@@ -139,14 +152,42 @@ def nmon_2_start_(host_ip,s,c,t,queue):
   except Exception as e1:flag=str(e1)
   queue.put([host_ip,flag])
 
+def putfile_2_host_(host_ip,s,c,t,queue):
+  flag=0
+  try:
+    host_info=Server.objects.get(host_ip=host_ip)
+    tmp_dirs=settings.STATICFILES_DIRS[0].replace('static','downfiles')
+    
+    ssh_=myParamiko(host_ip,host_info.host_user,host_info.host_passwd,22)
+    try:
+      source_file=os.path.join(tmp_dirs,c)
+      ssh_.put(source_file,'~/%s' %c)
+      flag='OK'
+    except Exception as e:flag=str(e)
+    finally:ssh_.close()
+  except Exception as e1:flag=str(e1)
+  queue.put([host_ip,flag])
 
 def start_all(request):
-  countrys=request.GET['categorys']
-  s=request.GET['s']
-  c=request.GET['c']
+  s=''
+  if request.method=='POST':
+    filess=request.FILES.get('filess', None)
+    tmp_dirs=settings.STATICFILES_DIRS[0].replace('static','downfiles')
+    f = open(os.path.join(tmp_dirs, filess.name), 'wb')
+    s=filess.name
+    for chunk in filess.chunks(chunk_size=1024):
+      f.write(chunk)
+    #上传完成
+    return HttpResponse(json.dumps({'1':tmp_dirs+filess.name}))
+  else:
+    countrys=request.GET['categorys']
+    s=request.GET['s']
+    c=request.GET['c']
   t=time.strftime('%Y-%m-%d_%H:%M:%S',time.localtime(time.time()))
   if s=='cmds':
     thread = MyThread(cmd_2_host_,countrys.split(','),(s,c,t))
+  elif s=='filex':
+    thread = MyThread(putfile_2_host_,countrys.split(','),(s,c,t))
   else:
     thread = MyThread(nmon_2_start_,countrys.split(','),(s,c,t))
   returns=thread.start()

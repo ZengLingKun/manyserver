@@ -51,8 +51,6 @@
                                         <thead>
                                         <tr>
                                             <th>服务器IP</th>
-                                            <th>列1</th>
-                                            <th>列2</th>
                                         </tr>
                                         </thead>
 
@@ -205,13 +203,14 @@ var mm=0
 $.each(imgs, function(x,img){
 names=img.split('/')
 name=names[names.length-1]
-if (mm%2==0){
-content+='<tr role="row" class="odd"><td class="">'+i+'</td><td><img type="button" class="card-img-top img-fluid" data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+name+'</td>'
-}
-else{
-content+='<td><img class="card-img-top img-fluid"  data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+name+'</td></tr>'
-}
-mm+=1
+content+='<tr role="row" class="odd"><td><img type="button" class="card-img-top img-fluid" data-toggle="modal" data-target="#imgModal"  src="'+img+'"></td></tr><tr role="row" class="odd"><td>'+i+name+'</td></tr>'
+//if (mm%2==0){
+//content+='<tr role="row" class="odd"><td><img type="button" class="card-img-top img-fluid" data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+i+name+'</td></tr>'
+//}
+//else{
+//content+='<td><img class="card-img-top img-fluid"  data-toggle="modal" data-target="#imgModal"  src="'+img+'">'+name+'</td></tr>'
+//}
+//mm+=1
 //content+='<p style="width: 100%;ext-align: center;"><img class="card-img-top img-fluid" src="'+img+'">'
 //content+='<br /><center>'+img+'</center></p>'
 });

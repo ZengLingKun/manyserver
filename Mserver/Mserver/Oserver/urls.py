@@ -29,4 +29,6 @@ urlpatterns = [
     url(r'^nmon_2_img_many/$', views.nmon_2_img_many, name='nmon_2_img_many'),
     url(r'^many_2_imgs/$', views.many_2_imgs, name='many_2_imgs'),
     url(r'^run_cmd_many/$', views.run_cmd_many, name='run_cmd_many'),
+    url(r'^file_many/$', views.file_many, name='file_many'),
+    url(r'^upload_file/$', views.putfile_many, name='putfile_many'),
 ]
